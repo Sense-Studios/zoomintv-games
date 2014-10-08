@@ -16,8 +16,8 @@
         ZoominTV
     </author>
     
-    <!-- <content src="http://zoomintvgames-staging.herokuapp.com" /> -->
-    <content src="http://develop.sense-studios.com:32000" />
+    <content src="http://zoomintvgames-staging.herokuapp.com" />
+    <!-- <content src="http://develop.sense-studios.com:32000" /> -->
     <access origin="*" />
     
     <preference name="AllowInlineMediaPlayback" value="true" />
