@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
   id="com.sensestudios.zoomintv.games" 
-  version="0.0.4" 
-  versioncode="4"
+  version="1.0.0" 
+  versioncode="5"
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:gap="http://phonegap.com/ns/1.0"
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
@@ -40,7 +40,10 @@
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">s
       <false/>
     </gap:config-file>
-        
+    
+    <gap:splash src="splash.png" />
+    <gap:icon src="icon.png" />
+    
     <!-- android -->
     <icon src='res/android/icon/ldpi.png'  gap:platform="android" gap:density='ldpi' />
     <icon src='res/android/icon/mdpi.png'  gap:platform="android" gap:density='mdpi' />
