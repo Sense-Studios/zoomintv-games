@@ -19,19 +19,20 @@
     
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <preference name="SplashScreen" value="splash" />
-    <preference name="SplashScreenDelay" value="3000" />
     <preference name="StatusBarOverlaysWebview" value="false" />
     
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none"/>
-    <preference name="splash-screen-duration" value="3000" />
     
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.6" />
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="3000" />
     
     <gap:splash src="splash.png" width="1536" height="2048" />
     <gap:icon src="icon.png" />
