@@ -16,7 +16,7 @@
         ZoominTV
     </author>
     
-    <content src="http://zoomintvgames.herokuapp.com" />
+    <content src="http://zoomintv-games.herokuapp.com" />
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
     <access origin="*" />
     
