@@ -13,8 +13,8 @@
     <description>ZoominTV Games Channel</description>
     <author email="info@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
-    <content src="http://zoomintv-games.herokuapp.com" />
-    <!-- <content src="http://develop.sense-studios.com:32000" /> -->
+    <!-- <content src="http://zoomintv-games.herokuapp.com" /> -->
+    <content src="http://develop.sense-studios.com:32000" />
     <access origin="*" />
     
     <preference name="AllowInlineMediaPlayback" value="true" />
