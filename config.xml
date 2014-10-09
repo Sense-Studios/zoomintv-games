@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
   id="com.sensestudios.zoomintv.games" 
-  version="1.0.0" 
-  versioncode="5"
+  version="1.0.1" 
+  versioncode="6"
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:gap="http://phonegap.com/ns/1.0"
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
@@ -16,7 +16,7 @@
         ZoominTV
     </author>
     
-    <content src="http://zoomintvgames-staging.herokuapp.com" />
+    <content src="http://zoomintvgames.herokuapp.com" />
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
     <access origin="*" />
     
@@ -26,6 +26,7 @@
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="StatusBarOverlaysWebview" value="false" />
     <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none"/>
     
     <gap:platform name="ios" />
     <gap:platform name="android" />
