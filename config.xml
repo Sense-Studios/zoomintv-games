@@ -20,6 +20,7 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="StatusBarOverlaysWebview" value="false" />
+    <preference name="target-device" value="handset" /> <!-- ios phone only -->
     
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none"/>
