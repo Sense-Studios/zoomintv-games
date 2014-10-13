@@ -30,16 +30,7 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="StatusBarOverlaysWebview" value="false" />
-    <preference name="target-device" value="handset" /> <!-- ios phone only -->
-    
-    <!-- android specific -->
-    <preference name="fullscreen" value="true" />
-    <preference name="permissions" value="none"/>
-    
-    <!-- both -->
-    <preference name="SplashScreen" value="splash" />
-    <preference name="SplashScreenDelay" value="3000" />    
-    
+    <preference name="target-device" value="handset" /> <!-- ios phone only -->    
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
       <true/>
     </gap:config-file>    
@@ -52,6 +43,14 @@
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
       <false/>
     </gap:config-file>
+    
+    <!-- android specific -->
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none"/>
+    
+    <!-- both -->
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="3000" />        
         
     <!-- icon -->
     <gap:icon src="icon.png" />
@@ -90,7 +89,7 @@
     <gap:splash src="splash.png" width="1536" height="2048" />
     
     <!-- splash android -->
-    <gap:splash gap:platform="android" src="splash9.9.png" width="258" height="258">
+    <gap:splash gap:platform="android" src="splash9.9.png" width="258" height="258" />
     
     <!-- splash ios -->
     <gap:splash gap:platform="ios" src="splash.png" width="320"  height="480" />
