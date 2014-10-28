@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
   id="com.sensestudios.zoomintv.games" 
-  version="2.1.2" 
-  versioncode="18"
+  version="2.2.2" 
+  versioncode="19"
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:gap="http://phonegap.com/ns/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,9 +13,9 @@
     <description>ZoominTV Games Channel</description>
     <author email="info@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
-    <!-- <content src="http://zoomintv-games.herokuapp.com" />  -->
+    <content src="http://zoomintv-games.herokuapp.com" />
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
-    <content src="http://zoomintvgames-staging.herokuapp.com" />
+    <!-- <content src="http://zoomintvgames-staging.herokuapp.com" /> -->
     <access origin="*" />
     
     <!-- platforms -->
