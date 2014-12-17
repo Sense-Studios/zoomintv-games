@@ -55,7 +55,8 @@
     <preference name="SplashScreenDelay" value="3000" />        
         
     <!-- icon -->
-    <gap:icon src="icon.png" />
+    <icon src="icon.png"/>
+    <gap:icon src="icon.png" />    
     
     <!-- icon android -->
     <icon gap:platform="android" src='res/android/icon/ldpi.png'                gap:qualifier='ldpi' />
