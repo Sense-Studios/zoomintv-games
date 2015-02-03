@@ -10,7 +10,9 @@
 >
 
     <name>ZoominTV Games</name>
-    <description>ZoominTV Games Channel</description>
+    <description>
+      ZoominTV Games Channel
+    </description>
     <author email="info@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
     <content src="http://zoomintv-games.herokuapp.com" />
