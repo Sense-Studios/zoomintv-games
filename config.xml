@@ -10,9 +10,7 @@
 >
 
     <name>ZoominTV Games</name>
-    <description>
-      ZoominTV Games Channel
-    </description>
+    <description>ZoominTV Games Channel</description>
     <author email="ruud@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
     <content src="http://zoomintv-games.herokuapp.com" />
@@ -39,7 +37,7 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="StatusBarOverlaysWebview" value="false" />
-    <preference name="target-device" value="handset" /> <!-- ios phone only -->    
+    <preference name="target-device" value="universal" /> <!-- ios phone and tablet -->    
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
       <true/>
     </gap:config-file>    
@@ -59,7 +57,7 @@
     
     <!-- both -->
     <preference name="SplashScreen" value="splash" />
-    <preference name="SplashScreenDelay" value="3000" />        
+    <preference name="SplashScreenDelay" value="4000" />        
         
     <!-- icon -->
     <icon src="icon.png"/>
