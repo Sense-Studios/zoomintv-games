@@ -13,9 +13,9 @@
     <description>ZoominTV Games Channel</description>
     <author email="ruud@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
-    <content src="http://zoomintv-games.herokuapp.com" />
+    <!-- <content src="http://zoomintv-games.herokuapp.com" /> -->
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
-    <!-- <content src="http://zoomintvgames-staging.herokuapp.com" /> -->
+    <content src="http://zoomintvgames-staging.herokuapp.com" />
     <!-- <content src="http://develop.sense-studios.com:35000" /> -->
     <!-- <content src="http://develop.sense-studios.com:2113/" /> -->
     <!-- <content src="http://zoomintvnews.herokuapp.com" />-->
