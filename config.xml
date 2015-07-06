@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget
   id="com.sensestudios.zoomintv.games"
-  version="2.3.3"
+  version="2.3.4"
   versioncode="23"
   xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
@@ -16,7 +16,8 @@
     <!-- <content src="http://zoomintvgames.zoomin.tv" /> -->
 
     <!-- <content src="http://zoomintv-games.herokuapp.com" /> -->
-    <content src="http://develop.sense-studios.com:32000" />
+    <!-- NOTE THE TRAILING / -->
+    <content src="http://develop.sense-studios.com:32000/" />
     <!-- <content src="http://zoomintvgames-staging.herokuapp.com" /> -->
     <!-- <content src="http://develop.sense-studios.com:35000" /> -->
     <!-- <content src="http://develop.sense-studios.com:2113/" /> -->
