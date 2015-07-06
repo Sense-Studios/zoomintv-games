@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget 
-  id="com.sensestudios.zoomintv.games" 
-  version="2.3.1" 
+<widget
+  id="com.sensestudios.zoomintv.games"
+  version="2.3.1"
   versioncode="21"
-  xmlns="http://www.w3.org/ns/widgets" 
+  xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
@@ -12,16 +12,17 @@
     <name>ZoominTV Games</name>
     <description>ZoominTV Games Channel</description>
     <author email="ruud@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
-    
+
+    <content src="http://zoomintvgames.zoomin.tv" />
     <!-- <content src="http://zoomintv-games.herokuapp.com" /> -->
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
-    <content src="http://zoomintvgames-staging.herokuapp.com" />
+    <!-- <content src="http://zoomintvgames-staging.herokuapp.com" />
     <!-- <content src="http://develop.sense-studios.com:35000" /> -->
     <!-- <content src="http://develop.sense-studios.com:2113/" /> -->
     <!-- <content src="http://zoomintvnews.herokuapp.com" />-->
 
     <access origin="*" />
-    
+
     <!-- platforms -->
     <gap:platform name="ios" />
     <gap:platform name="android" />
@@ -32,43 +33,43 @@
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.6" />
     <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
-    
+
     <!-- ios specific -->
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="StatusBarOverlaysWebview" value="false" />
-    <preference name="target-device" value="universal" /> <!-- ios phone and tablet -->    
+    <preference name="target-device" value="universal" /> <!-- ios phone and tablet -->
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
       <true/>
-    </gap:config-file>    
+    </gap:config-file>
     <gap:config-file platform="ios" parent="AllowInlineMediaPlayback">
       <true/>
-    </gap:config-file>    
+    </gap:config-file>
     <gap:config-file platform="ios" parent="MediaPlaybackRequiresUserAction">
       <false/>
     </gap:config-file>
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
       <false/>
     </gap:config-file>
-    
+
     <!-- android specific -->
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none"/>
-    
+
     <!-- both -->
     <preference name="SplashScreen" value="splash" />
-    <preference name="SplashScreenDelay" value="4000" />        
-        
+    <preference name="SplashScreenDelay" value="4000" />
+
     <!-- icon -->
     <icon src="icon.png"/>
-    <gap:icon src="icon.png" />    
-    
+    <gap:icon src="icon.png" />
+
     <!-- icon android -->
     <icon gap:platform="android" src='res/android/icon/ldpi.png'                gap:qualifier='ldpi' />
     <icon gap:platform="android" src='res/android/icon/mdpi.png'                gap:qualifier='mdpi' />
     <icon gap:platform="android" src='res/android/icon/hdpi.png'                gap:qualifier='hdpi' />
-    <icon gap:platform="android" src='res/android/icon/xhdpi.png'               gap:qualifier='xhdpi' />     
-  
+    <icon gap:platform="android" src='res/android/icon/xhdpi.png'               gap:qualifier='xhdpi' />
+
     <!-- icon ios -->
       <!-- iOS 7.0+ -->
       <!-- iPhone / iPod Touch  -->
@@ -92,10 +93,10 @@
       <!-- iPad Spotlight and Settings Icon /icon-->
     <icon gap:platform="ios" src="res/ios/icon/Icon-Small-50.png" width="50" height="50" />
     <icon gap:platform="ios" src="res/ios/icon/Icon-Small-50@2x.png" width="100" height="100" />
-    
+
     <!-- splash -->
     <gap:splash src="splash.9.png" width="1536" height="2048" />
-    
+
     <!-- splash android -->
     <gap:splash gap:platform="android" src="res/android/splash/screen-ldpi-portrait.png" gap:qualifier="ldpi" /> <!-- 120dpi LDPI- icon-32x32, splash-426x320 -->
     <gap:splash gap:platform="android" src="res/android/splash/screen-mdpi-portrait.png" gap:qualifier="mdpi" /> <!-- 160 dpi MDPI- icon-48x48, splash-470x320 -->
@@ -104,7 +105,7 @@
     <gap:splash gap:platform="android" src="res/android/splash/screen-xhdpi-portrait.png" gap:qualifier="fr-xhdpi" /> <!-- ? -->
     <gap:splash gap:platform="android" src="res/android/splash/screen-xhdpi-portrait.png" gap:qualifier="port-xxhdpi" /> <!-- 480dpi XXHDPI- icon- 144x144 -->
     <gap:splash gap:platform="android" src="res/android/splash/screen-xhdpi-landscape.png" gap:qualifier="land-xxhdpi" /> <!-- 480dpi XXHDPI- icon- 144x144 -->
-    
+
     <!-- splash ios -->
     <gap:splash gap:platform="ios" src="res/ios/splash/screen-iphone-portrait.png" width="320"  height="480" />
     <gap:splash gap:platform="ios" src="res/ios/splash/screen-iphone-portrait-2x.png" width="640"  height="960" />
@@ -115,6 +116,6 @@
     <gap:splash gap:platform="ios" src="res/ios/splash/screen-portrait_1024_768.png" width="1024" height="768" />
     <gap:splash gap:platform="ios" src="res/ios/splash/splash_2048_1496.png" width="2048" height="1496" />
     <gap:splash gap:platform="ios" src="res/ios/splash/screen-iphone-portrait-568h-2x.png" width="640"  height="1136" />
-        
-        
+
+
 </widget>
