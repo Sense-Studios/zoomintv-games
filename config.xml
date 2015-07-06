@@ -55,7 +55,7 @@
     <!-- android specific -->
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none"/>
-    <preference name="keepRunning" value="true" />    
+    <preference name="keepRunning" value="true" />
 
     <!-- both -->
     <preference name="SplashScreen" value="splash" />
